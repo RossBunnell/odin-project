@@ -15,10 +15,15 @@ nav {
   display: flex;
 }
 
+.nav-bar {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .header-logo {
   margin-top: 5px;
   margin-left: 5px;
-  font-weight: bold;
+
   font-size: 1.5em;
   display: inline-block;
   width: 500px;
@@ -37,4 +42,31 @@ nav {
 a {
   text-decoration: none;
   color: white;
+}
+
+.primary-container {
+  display: flex;
+  padding-top: 50px;
+}
+
+.first-child-container,
+.second-child-container {
+  width: 50%;
+  padding: 50px;
+}
+
+.second-child-container {
+  text-align: center;
+  background-color: #e5e7eb;
+  margin-right: 50px;
+}
+
+.awesome-website-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.awesome-website-paragraph {
+  color: #e5e7eb;
 }
