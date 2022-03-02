@@ -9,3 +9,30 @@ header {
   background-color: #1f2937;
   height: 600px;
 }
+
+nav {
+  color: white;
+  display: flex;
+}
+
+.header-logo {
+  font-weight: bold;
+  font-size: 3em;
+  display: inline-block;
+  width: 500px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+  width: 100%;
+}
+.header-link {
+  padding: 10px 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
