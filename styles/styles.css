@@ -7,7 +7,7 @@
 
 header {
   background-color: #1f2937;
-  height: 600px;
+  height: 450px;
 }
 
 nav {
@@ -59,6 +59,10 @@ a {
   text-align: center;
   background-color: #e5e7eb;
   margin-right: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .awesome-website-text {
@@ -69,4 +73,9 @@ a {
 
 .awesome-website-paragraph {
   color: #e5e7eb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.awesome-signup-button {
 }
