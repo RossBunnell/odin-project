@@ -103,7 +103,7 @@ main h1 {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 0;
-  padding: 10px 150px 0 150px;
+  padding: 10px 500px 0 500px;
 }
 
 .box {
@@ -119,8 +119,9 @@ main h1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5px 150px 0 150px;
+  padding: 5px 500px 0 500px;
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .text-box {
@@ -130,4 +131,32 @@ main h1 {
   padding-top: 0;
   text-align: center;
   color: #1f2937;
+}
+
+.quote-container {
+  height: 450px;
+  background-color: #e5e7eb;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+  height: auto;
+  width: 50%;
+}
+
+.author {
+  padding-top: 20px;
+  text-align: end;
+  display: inline;
+  text-align: end;
+  width: 50%;
+  font-size: 20px;
 }
