@@ -23,7 +23,6 @@ nav {
 .header-logo {
   margin-top: 5px;
   margin-left: 5px;
-
   font-size: 1.5em;
   display: inline-block;
   width: 500px;
@@ -36,9 +35,11 @@ nav {
   margin: 1px;
   width: 100%;
 }
+
 .header-link {
   padding: 10px 10px;
 }
+
 a {
   text-decoration: none;
   color: white;
@@ -100,10 +101,10 @@ main h1 {
 .image-container {
   height: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   margin-bottom: 0;
-  padding: 10px 500px 0 500px;
+  /* padding: 10px 500px 0 500px; */
 }
 
 .box {
@@ -117,9 +118,9 @@ main h1 {
 .text-container {
   height: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 5px 500px 0 500px;
+  /* padding: 5px 500px 0 500px; */
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -170,12 +171,27 @@ footer {
 
 .footer-container {
   background-color: #3882f6;
-  height: 150px;
+  height: 100px;
   width: 75%;
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .call-to-action {
+  color: #e5e7eb;
+}
+.call-to-action-title {
+  font-weight: 300;
+  font-size: larger;
+}
+
+.signup-button {
+  padding: 10px 30px;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+
+  background-color: #3882f6;
+  color: #f9faf8;
 }
